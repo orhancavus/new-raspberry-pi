@@ -1,6 +1,8 @@
 # Raspberry Pi 5 AI & Developer Workstation Setup
 
-This setup suite automates the complete configuration of a new Raspberry Pi 5 installation, reconstructed and optimized from the shell command history ([`rp_tenkanhm.txt`](./rp_tenkanhm.txt)).
+This setup suite automates the complete configuration of a new Raspberry Pi 5 installation, reconstructed and optimized from my previous work on a similar device
+
+https://github.com/orhancavus/new-raspberry-pi
 
 It equips the Raspberry Pi for:
 - **Local AI & NPU Acceleration**: Raspberry Pi AI Kit (Hailo-8 / Hailo-8L / Hailo-10) with PCIe Gen 3 throughput and `python3-hailort`.
