@@ -247,7 +247,6 @@ mkdir -p "$HOME/pydev/03_ai_experiments"
 mkdir -p "$HOME/pydev/04_tools_cli"
 mkdir -p "$HOME/pydev/05_rasbpi"
 mkdir -p "$HOME/.agents/skills"
-mkdir -p "$HOME/.gemini/antigravity-cli/skills/public-repo-readiness"
 echo -e "${GREEN}✔ Development directory tree ready in ~/pydev/${NC}"
 
 # ------------------------------------------------------------------------------

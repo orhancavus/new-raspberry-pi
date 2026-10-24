@@ -1,0 +1,65 @@
+# ==============================================================================
+# Exclusion Rules for Intelligent Remote Sync from Raspberry Pi to macOS
+# ==============================================================================
+
+# Node.js & Web Build Artifacts
+node_modules/
+.next/
+.nuxt/
+.turbo/
+.cache/
+dist/
+build/
+out/
+.npm/
+.yarn/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python Virtual Environments & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Temporary, Cache, Logs & Large Archives
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.deb
+*.iso
+hailort.log
+
+# System & OS Cache Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+lost+found/
+
+# Local sensitive caches & keys
+.local/share/keyrings/
+*.key
+*.pem
+id_ed25519*
+id_rsa*

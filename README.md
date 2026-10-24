@@ -141,6 +141,23 @@ This generates a secure public HTTPS URL through Cloudflare.
 
 ---
 
+## 🔄 Migrating Files from Previous Raspberry Pi to macOS
+
+To copy projects and folders from your previous Raspberry Pi to your Mac while intelligently skipping heavy or transient directories (like `node_modules`, `.venv`, `.next`, cache files, and anything matched by `.gitignore`), use [`sync_from_pi.sh`](./sync_from_pi.sh):
+
+```bash
+# 1. Preview files without copying (Dry Run simulation)
+./sync_from_pi.sh --host 192.168.1.101 --user tenkanhm --remote ~/pydev/ --dry-run
+
+# 2. Run the live transfer
+./sync_from_pi.sh --host 192.168.1.101 --user tenkanhm --remote ~/pydev/ --dest ~/Downloads/rpi-backup
+
+# Or run interactively (prompts for host, user, paths, and confirmation):
+./sync_from_pi.sh
+```
+
+---
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
