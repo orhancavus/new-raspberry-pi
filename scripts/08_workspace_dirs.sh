@@ -17,9 +17,7 @@ PROJECT_DIRS=(
     "$HOME/pydev/03_ai_experiments"
     "$HOME/pydev/04_tools_cli"
     "$HOME/pydev/05_rasbpi"
-    "$HOME/pydev/05_rasbpi/nx_web_app"
     "$HOME/.agents/skills"
-    "$HOME/.gemini/antigravity-cli/skills/public-repo-readiness"
 )
 
 for dir in "${PROJECT_DIRS[@]}"; do
