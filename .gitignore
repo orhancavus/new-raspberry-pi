@@ -1,0 +1,57 @@
+# OS Artifacts
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Private History & Analysis Dump
+rp_tenkanhm.txt
+*.history
+
+# Environment & Local Overrides
+.env
+.env.local
+*.local.env
+
+# Local AI Agent Rules & Workspaces (Antigravity, Claude, Cursor)
+AGENTS.md
+GEMINI.md
+CLAUDE.md
+.agents/
+.agent/
+.gemini/
+.claude/
+.cursor/
+
+# Editor / IDE Configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python Runtime & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Keys & Secrets
+*.pem
+*.key
+id_ed25519*
+id_rsa*
+
+# Build Outputs & Logs
+*.log
+*.zip
+dist/
+build/
